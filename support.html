@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balancio Support</title>
+<style>
+  :root {
+    --bg: #fff8f0;
+    --fg: #2d2a3a;
+    --accent: #ff6b6b;
+    --muted: #6b6878;
+    --card: #ffffff;
+    --border: #ece5da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1826;
+      --fg: #f3f1f8;
+      --accent: #ff8585;
+      --muted: #a9a4b8;
+      --card: #242134;
+      --border: #332f44;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #4aa8e8, #2a7fd4);
+    margin-bottom: 16px;
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 6px;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 32px 0 10px;
+    font-weight: 700;
+  }
+  p, li { color: var(--fg); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 16px 0;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  details {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px 20px;
+    margin: 12px 0;
+  }
+  summary {
+    font-weight: 600;
+    cursor: pointer;
+  }
+  details p {
+    margin-top: 10px;
+    color: var(--muted);
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="badge">⚖️</div>
+    <h1>Balancio Support</h1>
+  </header>
+
+  <p>Need help with Balancio, have feedback, or found a bug? We're happy to help.</p>
+
+  <div class="card">
+    <p><strong>Email:</strong> <a href="mailto:grantwilliams8@icloud.com">grantwilliams8@icloud.com</a></p>
+    <p>We try to respond within a few days.</p>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <details>
+    <summary>How do I remove ads?</summary>
+    <p>Open Settings from the main menu and choose the Remove Ads purchase. This is a one-time in-app purchase that removes banner and interstitial ads permanently.</p>
+  </details>
+
+  <details>
+    <summary>My progress disappeared after reinstalling the app</summary>
+    <p>Balancio stores your progress (levels, streaks, stats) locally on your device only. Uninstalling the app removes this data, and it can't be recovered. We don't currently support iCloud sync for progress.</p>
+  </details>
+
+  <details>
+    <summary>How does the Daily Challenge work?</summary>
+    <p>A new single-beam challenge is available once every 24 hours. Playing it keeps your daily streak going — missing a day resets the streak.</p>
+  </details>
+
+  <details>
+    <summary>I found a bug or have a feature request</summary>
+    <p>Please email us at <a href="mailto:grantwilliams8@icloud.com">grantwilliams8@icloud.com</a> with as much detail as you can — your device model, iOS version, and what you were doing when it happened.</p>
+  </details>
+
+  <h2>Privacy</h2>
+  <p>See our <a href="/">Privacy Policy</a> for details on what data Balancio collects and how it's used.</p>
+
+  <footer>
+    &copy; 2026 Grant Williams &middot; Balancio
+  </footer>
+</div>
+</body>
+</html>
